@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px 20px 0px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,9 +41,7 @@ body {
     
 }
 
-#header h1{
-   
-}
+
 #sidebar {
     width: 100%;
     display: flex;
