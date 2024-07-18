@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px 20px 0px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,9 +7,20 @@ body {
     font-family: poppins;
     font-size: 14px;
     font-weight: 500;
-    min-width: 425px;
-}
 
+}
+ @media (max-width: 425px ) {
+    body{
+        max-width: 425px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 10px 0px 10px;
+    }
+    #wrap{
+        max-width: 425px;
+    }
+ }
 
 
 @font-face {
@@ -25,18 +36,13 @@ body {
 
 
 #wrap {
-    max-width: 980px;
-    margin: auto 0;
+   margin: auto 0;
     line-height: 40px;
-    min-width: 425px;
 }
 
-#header h1{
-   
-}
+
 #sidebar {
     width: 100%;
-    margin: 10px 10px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,9 +52,8 @@ body {
 .block{
    display: flex;
    justify-content: center;
-   align-items: center ;
+   align-items: center;
    border: #005b2394 solid 2px;
-   width: 100%;
     
 }
 
